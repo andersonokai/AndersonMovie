@@ -29,3 +29,15 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+/* Existing styles */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Add padding to form inputs */
+input[type="text"], input[type="number"], input[type="date"], select {
+    padding: 8px;
+    margin: 5px 0;
+}

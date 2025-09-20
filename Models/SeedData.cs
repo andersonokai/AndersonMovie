@@ -25,6 +25,7 @@ public static class SeedData
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
+                    Rating = "R",
                     Price = 7.99M
                 },
                 new Movie
@@ -32,6 +33,7 @@ public static class SeedData
                     Title = "Ghostbusters ",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
+                    Rating = "PG",
                     Price = 8.99M
                 },
                 new Movie
@@ -39,6 +41,7 @@ public static class SeedData
                     Title = "Ghostbusters 2",
                     ReleaseDate = DateTime.Parse("1986-2-23"),
                     Genre = "Comedy",
+                    Rating = "PG",
                     Price = 9.99M
                 },
                 new Movie
@@ -46,7 +49,40 @@ public static class SeedData
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
+                    Rating = "NR",
                     Price = 3.99M
+                },
+                 new Movie
+                {
+                    Title = "The Matrix",
+                    ReleaseDate = DateTime.Parse("1999-3-31"),
+                    Genre = "SciFi",
+                    Rating = "R",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2010-7-16"),
+                    Genre = "SciFi",
+                    Rating = "PG-13",
+                    Price = 8.99M
+                },
+                new Movie
+                {
+                    Title = "Black Panther",
+                    ReleaseDate = DateTime.Parse("2018-2-16"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 10.99M
+                },
+                new Movie
+                {
+                    Title = "Avengers: Endgame",
+                    ReleaseDate = DateTime.Parse("2019-4-26"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 11.99M
                 }
             );
             context.SaveChanges();
